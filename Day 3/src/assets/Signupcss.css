@@ -1,0 +1,78 @@
+/* Center the login form vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url("C:\Users\sugan\OneDrive\Desktop\toy\public\wallpapersden.com_poster-of-minions-2020-movie_3840x2160.jpg");
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    }
+    
+    /* Style the login container */
+    .signup-container {
+        background: rgba(231, 236, 231, 0.9);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        padding: 30px;
+        width: 300px;
+        text-align: center;
+        margin-right: 600px;
+        margin-top: 80PX;
+    }
+    
+    /* Style the login form header */
+    .signup-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    }
+    
+    /* Style form fields and labels */
+    .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    }
+    
+    .label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    }
+    
+    .input-field {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    }
+    
+    /* Style the login button */
+    .signup-button {
+    background: linear-gradient(to bottom, #031343, #64b5ee);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    }
+    
+    .signup-button:hover {
+    background: linear-gradient(to bottom, #031343, #64b5ee);
+    }
+    
+    /* Additional styling for the form footer */
+    .form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+    }
+    .ff1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
