@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Center the signup page vertically and horizontally */
+  .signup-page {
+    background-image: url("https://w.wallhaven.cc/full/ym/wallhaven-ym8wxl.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the signup container */
+  .signup-container {
+    background: rgb(236, 240, 236, 1.0); /* Use an rgba background for opacity */
+    box-shadow: 0 0 10px rgba(220, 217, 217, 0.2);
+    border-radius: 30px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    margin-left: 600px;
+  }
+  
+  /* Style the signup form header */
+  .signup-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #090909;
+  }
+  
+  /* Style form fields and labels */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    color: #0b0b0b;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Style the signup button */
+  .signup-button {
+    background: linear-gradient(to bottom, #080808, #64b5ee);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background: linear-gradient(to bottom, #0b0b0b, #64b5ee);
+  }
+  
+  /* Additional styling for the form footer */
+  .form-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+
+  .line{
+    text-decoration: none;
+    color: #fff
+  
+  }
