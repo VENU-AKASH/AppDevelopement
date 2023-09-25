@@ -1,0 +1,107 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Transparent Container */
+  .transparent-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity (fourth value) as needed */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Rest of your existing CSS styles for product cards */
+  /* ... */
+  
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Product List */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Product Card */
+  .product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    position: relative;
+    padding-left: 55px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  /* Product Image */
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product Name */
+  .product-name {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Product Price */
+  .product-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  /* Product Features */
+  .product-features {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  /* Order.css */
+.order-page {
+  display: flex;
+}
+
+/* Styling for the sidebar (Dashboard component) */
+/* Add any additional styling you need for your sidebar here */
+
+/* Styling for the main content area (product list) */
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+  /* Add any additional styling you need for the main content here */
+}
+
+/* Styling for individual product items */
+.product {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  /* Add any additional styling for product items here */
+}
+/* Order.css */
+
+/* ... Your existing styles ... */
+
+/* Add a new CSS rule for the product images */
+.product-list .product img {
+  width: 100%; /* Make the image width 100% of the container */
+  height: auto; /* Maintain the aspect ratio */
+  max-height: 200px; /* Set a maximum height to limit image size */
+}
