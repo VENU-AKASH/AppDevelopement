@@ -1,0 +1,62 @@
+/* TriviaQuiz.css */
+.trivia-quiz {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .trivia-quiz h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .trivia-quiz p {
+    margin-bottom: 15px;
+  }
+  
+  .trivia-quiz ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .trivia-quiz ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .trivia-quiz ul li:hover {
+    background-color: #f7f7f7;
+  }
+  
+  .trivia-quiz ul li.selected {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .trivia-quiz button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .trivia-quiz button:hover {
+    background-color: #0056b3;
+  }
+  
+  .trivia-quiz .quiz-completed {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  

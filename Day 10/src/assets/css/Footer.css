@@ -1,0 +1,20 @@
+.footer {
+    color: #fff;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    height: 50px;
+    text-decoration: none;
+  }
+  .social-share-buttons {
+   margin-top: -20px;
+    margin-left: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between social buttons */
+  }
+  .footer-link {
+    color: white; /* Set the text color to white */
+    text-decoration: none; /* Remove underlines from links, if desired */
+  }
